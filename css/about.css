@@ -1,0 +1,141 @@
+.section-about {
+    padding-top: 40px;
+}
+
+.section-header-about {
+    margin-bottom: 30px;
+	margin-top: 30px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 11.5rem;
+    font-weight: 800;
+    border-left: 40px solid white;
+	border-top: 40px solid var(--body-bg);
+	border-right: 40px solid white;
+	border-bottom: 40px solid var(--body-bg);
+	border-radius:4% 4% 4% 4%;
+    display: flex;
+    align-items: center;
+}
+.section-header-about1{
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding-left: 30px;
+	text-transform: uppercase;
+	font-size: 10.5rem;
+	font-weight: 800;
+	border-left: 30px solid var(--main-color);
+	border-right: 30px solid var(--main-color);
+	display: flex;
+	align-items: center;
+}
+.item-content-rapper-about {
+    float: right;
+	padding-left: 5rem;
+    width:100% ;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+	
+}
+.item-content-rapper-about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+.item-content-title-about {
+    font-size: 12.5rem;
+    line-height: 10rem;
+    font-weight: 900;
+}
+
+.item-content-title-about1 {
+    font-size: 6.5rem;
+    line-height: 10rem;
+    font-weight: 900;
+}
+
+.movie-infos-about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: calc(var(--space-top) / 2);
+}
+
+.movie-info-about {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.movie-info-about span {
+    margin-left: 5px;
+}
+
+.movie-info-about i {
+    color: var(--main-color);
+}
+
+.movie-info-about ~ .movie-info-about {
+    margin-left: 5px;
+}
+
+.item-content-description-ABOUT {
+    font-size: 5.55rem;
+    margin-top: var(--space-top);
+    line-height: 5.5rem;
+	font-weight: 800;
+}
+.item-content-description-RELPH {
+    font-size: 7.25rem;
+    margin-top: var(--space-top);
+    line-height: 5.5rem;
+	font-weight: 800;
+}
+.item-content-description-RELPH1 {
+    font-size: 4.55rem;
+    margin-top: var(--space-top);
+    line-height: 4.5rem;
+	font-weight: 800;
+}
+.item-content-description-RELPH2 {
+    font-size: 2.55rem;
+    margin-top: var(--space-top);
+    line-height: 3.5rem;
+	font-weight: 800;
+}
+
+.item-action {
+    margin-top: var(--space-top);
+}
+.item-content-description-story1{
+	font-size: 3.15rem;
+	margin-top: var(--space-top);
+	line-height: 5.5rem;
+	font-weight: 700;
+}
+.item-content-description-story2{
+	font-size: 3.15rem;
+	margin-top: var(--space-top);
+	line-height: 5.5rem;
+	font-weight: 500;
+}
+.item-content-description-story3{
+	font-size: 2.8rem;
+	margin-top: var(--space-top);
+	line-height: 5.5rem;
+	font-weight: 500;
+}
+.item-content-description-story4{
+	font-size: 3.8rem;
+	margin-top: var(--space-top);
+	line-height: 5.5rem;
+	font-weight: 800;
+}
